@@ -1,206 +1,625 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR" class="scroll-smooth">
+
 <head>
+
     <meta charset="utf-8"/>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Protocolo Archi-Flow - Gestão de Elite para Arquitetos</title>
+
+    <title>Arq do Notion - Gestão e Processos para Arquitetos</title>
+
     
+
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
+
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
     
+
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
+
         tailwind.config = {
+
             theme: {
+
                 extend: {
+
                     colors: {
+
                         "notion-bg": "#F7F7F5",
+
                         "primary": "#1C1C1C", 
+
                         "accent-gold": "#8B735B", 
+
                     },
+
                     fontFamily: {
+
                         "sans": ["Inter", "sans-serif"],
+
                         "serif": ["Playfair Display", "serif"]
+
                     }
+
                 },
+
             },
+
         }
+
     </script>
+
     <style>
+
         .glow-gold { box-shadow: 0 0 20px rgba(139, 115, 91, 0.2); }
+
         .feature-img-container img { transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+
         .feature-img-container:hover img { transform: scale(1.05); }
-        .gradient-overlay { background: linear-gradient(180deg, rgba(247,247,245,0) 0%, rgba(247,247,245,1) 100%); }
+
     </style>
+
 </head>
+
 <body class="bg-notion-bg text-[#37352f] antialiased">
 
+
+
 <nav class="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-200/50">
+
     <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+
         <div class="flex items-center gap-1 font-serif italic text-xl font-bold text-primary">
+
             Arq<span class="text-sm font-sans font-normal uppercase tracking-tighter not-italic text-gray-500 ml-1">do Notion</span>
+
         </div>
+
         <a href="#oferta" class="bg-primary text-white px-5 py-2 rounded text-xs font-bold tracking-widest hover:bg-black transition-all">
-            ADQUIRIR PROTOCOLO
+
+            ADQUIRIR SISTEMA
+
         </a>
+
     </div>
+
 </nav>
 
+
+
 <section class="relative pt-16 pb-20 px-4">
+
     <div class="max-w-5xl mx-auto text-center">
+
         <span class="inline-block py-1 px-4 rounded-full bg-accent-gold/10 text-accent-gold text-[10px] font-bold tracking-[0.2em] uppercase mb-8 border border-accent-gold/20">
-            Cold Traffic Research: Arquitetura & Escala
+
+            Gestão & Processos para Arquitetos
+
         </span>
+
         
-        <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif text-primary leading-[1.1] mb-8 font-semibold">
-            Por que projetos de R$ 50k geram <br/>
-            <span class="italic text-accent-gold">Prejuízo Oculto</span> no seu escritório?
+
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-serif text-primary leading-[1.1] mb-8 font-semibold">
+
+            Por que projetos que parecem <span class="italic text-accent-gold">perfeitos no 3D</span> se transformam em um pesadelo de gestão, com problemas o tempo todo no seu dia a dia?
+
         </h1>
+
         
-        <p class="text-lg md:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-            O problema não é sua gestão de tempo. É a <strong class="text-primary font-semibold text-highlight">Entropia Criativa</strong>. Descubra o mecanismo de 2 palavras que os escritórios de elite usam para recuperar 30% de lucro perdido.
+
+        <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed mb-12">
+
+            O problema não é falta de talento. É que seu escritório vive no <strong>"Sistema de Esperança"</strong>. Você espera que a equipe lembre de tudo, espera que o estagiário não erre, espera que a obra não atrase. Descubra como o <strong class="text-primary font-semibold">Arq do Notion</strong> cria a interdependência de tarefas que blinda sua rotina.
+
         </p>
+
         
+
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+
             <a href="#oferta" class="w-full sm:w-auto px-10 py-5 bg-primary text-white text-sm font-bold rounded shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-3 tracking-widest">
-                QUERO O PROTOCOLO ARCHI-FLOW
-                <span class="material-symbols-outlined">bolt</span>
+
+                QUERO ACABAR COM O CAOS
+
+                <span class="material-symbols-outlined">arrow_downward</span>
+
             </a>
+
         </div>
+
+
 
         <div class="mt-16 relative max-w-4xl mx-auto rounded-xl overflow-hidden shadow-[0_32px_64px_-15px_rgba(0,0,0,0.2)] border border-gray-200 bg-white">
-            <img src="3.webp" alt="Ecossistema Arq do Notion" class="w-full h-auto" loading="eager">
+
+            <img src="1.webp" alt="Ecossistema Arq do Notion" class="w-full h-auto" loading="eager">
+
             <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-xl"></div>
+
         </div>
+
     </div>
+
 </section>
+
+
 
 <section class="py-24 bg-white">
+
     <div class="max-w-4xl mx-auto px-4">
+
         <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-serif text-primary mb-6">A falha biológica do <span class="italic">Cérebro Arquiteto</span></h2>
-            <p class="text-gray-600 text-lg">80% dos arquitetos tratam a gestão como um "trabalho extra". Na verdade, a falta de um ecossistema único gera um fenômeno chamado <strong>Resíduo de Atenção</strong>.</p>
+
+            <h2 class="text-3xl md:text-4xl font-serif text-primary mb-6">A Causa Raiz da sua Sobrecarga</h2>
+
+            <p class="text-gray-600 text-lg">Você sente que precisa revisar tudo 10x senão sai errado? Isso acontece porque a inteligência do escritório está na sua cabeça, não em um sistema.</p>
+
         </div>
+
+
 
         <div class="grid md:grid-cols-3 gap-8 text-center">
-            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100">
-                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">psychology_alt</span>
-                <h4 class="font-bold mb-2">Fim da Fragmentação</h4>
-                <p class="text-sm text-gray-500 leading-relaxed">Pare de alternar entre 5 apps. O Archi-Flow blinda seu estado de Flow criativo.</p>
+
+            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100 hover:shadow-lg transition-all">
+
+                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">group_off</span>
+
+                <h4 class="font-bold mb-2">Fim do "GPS Humano"</h4>
+
+                <p class="text-sm text-gray-500 leading-relaxed">Pare de responder "onde está o arquivo tal?" o dia todo. Sua equipe ou você mesma terão o passo a passo claro, sem interrupções.</p>
+
             </div>
-            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100">
-                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">account_balance</span>
-                <h4 class="font-bold mb-2">Lucro Real</h4>
-                <p class="text-sm text-gray-500 leading-relaxed">Identifique exatamente onde o dinheiro está escorrendo antes de virar prejuízo.</p>
+
+            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100 hover:shadow-lg transition-all">
+
+                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">construction</span>
+
+                <h4 class="font-bold mb-2">Segurança na Obra</h4>
+
+                <p class="text-sm text-gray-500 leading-relaxed">Chegue no canteiro com autoridade. Checklists e processos que evitam o "disse me disse" e o prejuízo de refazer.</p>
+
             </div>
-            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100">
-                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">verified</span>
-                <h4 class="font-bold mb-2">Status Alpha</h4>
-                <p class="text-sm text-gray-500 leading-relaxed">Apresente processos tão sólidos que o cliente sentirá medo de não te contratar.</p>
+
+            <div class="p-8 rounded-2xl bg-notion-bg border border-gray-100 hover:shadow-lg transition-all">
+
+                <span class="material-symbols-outlined text-accent-gold text-4xl mb-4">attach_money</span>
+
+                <h4 class="font-bold mb-2">Financeiro sem Medo</h4>
+
+                <p class="text-sm text-gray-500 leading-relaxed">Pare de pagar para trabalhar. Visualize se você está tendo lucro real (Receitas vs Despesas) ou comendo sua margem.</p>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
+
+
+
+<section class="py-24 bg-notion-bg">
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="text-center mb-16">
+
+            <span class="text-accent-gold font-bold tracking-widest text-xs uppercase">Por dentro do sistema</span>
+
+            <h2 class="text-3xl md:text-4xl font-serif text-primary mt-2">O Fim das Planilhas Feias</h2>
+
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Visual, intuitivo e feito para mentes visuais de arquitetos. Veja como é gerir seu escritório sem dor.</p>
+
+        </div>
+
+
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="bg-white p-2 rounded-2xl shadow-sm border border-gray-200">
+
+                <div class="overflow-hidden rounded-xl bg-gray-100 mb-4 aspect-video relative group">
+
+                    <img src="2.webp" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" alt="Gestão Financeira">
+
+                </div>
+
+                <div class="px-4 pb-4">
+
+                    <h4 class="font-bold text-lg mb-1">Radar Financeiro</h4>
+
+                    <p class="text-sm text-gray-500">Controle de Receitas e Despesas em uma tela limpa e organizada.</p>
+
+                </div>
+
+            </div>
+
+            <div class="bg-white p-2 rounded-2xl shadow-sm border border-gray-200">
+
+                <div class="overflow-hidden rounded-xl bg-gray-100 mb-4 aspect-video relative group">
+
+                    <img src="3.webp" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" alt="Cronograma Timeline">
+
+                </div>
+
+                <div class="px-4 pb-4">
+
+                    <h4 class="font-bold text-lg mb-1">Cronograma Timeline</h4>
+
+                    <p class="text-sm text-gray-500">Visualização Gantt automática. Arraste e solte para mudar prazos.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 
 <section class="py-24 space-y-32">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-            <div class="feature-img-container rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
-                <img src="4.webp" class="object-cover w-full h-full" alt="Painel Financeiro">
-            </div>
-            <div>
-                <h3 class="text-3xl md:text-5xl font-serif text-primary mb-6 italic leading-tight">
-                    Domine a <span class="text-accent-gold">Engenharia Financeira</span> do seu escritório.
-                </h3>
-                <p class="text-xl text-gray-600 mb-8 font-light">
-                    O <strong>Protocolo Archi-Flow</strong> não é uma planilha. É um radar de lucratividade em tempo real.
-                </p>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <span class="material-symbols-outlined text-accent-gold">check_circle</span>
-                        <span class="text-gray-700"><strong>Afirmação:</strong> Balanço automático de propostas vs. custos.</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <span class="material-symbols-outlined text-accent-gold">verified_user</span>
-                        <span class="text-gray-700"><strong>Prova:</strong> Baseado em métricas de escritórios com 35% de margem líquida.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="max-w-6xl mx-auto px-4">
+
         <div class="grid lg:grid-cols-2 gap-16 items-center">
-            <div class="order-2 lg:order-1">
-                <h3 class="text-3xl md:text-5xl font-serif text-primary mb-6 italic leading-tight">
-                    O fim do status de <br/> <span class="text-accent-gold">"Desenhista de Luxo"</span>.
+
+            <div class="feature-img-container rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
+
+                <img src="4.webp" class="object-cover w-full h-full" alt="Painel Financeiro">
+
+            </div>
+
+            <div>
+
+                <h3 class="text-3xl md:text-4xl font-serif text-primary mb-6 italic leading-tight">
+
+                    A paz de saber exatamente para onde seu dinheiro está indo.
+
                 </h3>
-                <p class="text-xl text-gray-600 mb-8 font-light">
-                    Assuma a posição estratégica. Gerencie obras e projetos como uma máquina de precisão.
+
+                <p class="text-lg text-gray-600 mb-8 font-light">
+
+                    O <strong>Arq do Notion</strong> elimina a "cegueira financeira". Você ama projetar, mas precisa gerir. Tenha controle total de custos e entradas em um único lugar.
+
                 </p>
-                <img src="2.webp" class="rounded-xl shadow-lg border border-gray-200 mt-4" alt="CRM e Obras">
+
+                <div class="space-y-4">
+
+                    <div class="flex items-start gap-3">
+
+                        <span class="material-symbols-outlined text-accent-gold mt-1">check</span>
+
+                        <span class="text-gray-700 text-sm"><strong>Receitas x Despesas:</strong> Saiba exatamente quanto sobrou no fim do mês sem abrir 10 planilhas.</span>
+
+                    </div>
+
+                    <div class="flex items-start gap-3">
+
+                        <span class="material-symbols-outlined text-accent-gold mt-1">check</span>
+
+                        <span class="text-gray-700 text-sm"><strong>Controle de Recebíveis:</strong> O sistema organiza quem deve pagar e quando.</span>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div class="order-1 lg:order-2 feature-img-container rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
-                <img src="1.webp" class="object-cover w-full h-full" alt="Gestão de Projetos">
-            </div>
+
         </div>
+
     </div>
+
+
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <div class="order-2 lg:order-1">
+
+                <h3 class="text-3xl md:text-4xl font-serif text-primary mb-6 italic leading-tight">
+
+                    Deixe de ser "Escrava da Operação" e volte a ser Arquiteta.
+
+                </h3>
+
+                <p class="text-lg text-gray-600 mb-8 font-light">
+
+                    Seu escritório não pode parar quando você sai de férias ou fica doente. Com tarefas interdependentes, o Arq do Notion guia sua rotina e a de quem trabalha com você.
+
+                </p>
+
+                <div class="space-y-4 mb-8">
+
+                     <div class="flex items-start gap-3">
+
+                        <span class="material-symbols-outlined text-accent-gold mt-1">check</span>
+
+                        <span class="text-gray-700 text-sm"><strong>Delegação Segura:</strong> O sistema só libera a próxima fase se o checklist anterior estiver pronto.</span>
+
+                    </div>
+
+                    <div class="flex items-start gap-3">
+
+                        <span class="material-symbols-outlined text-accent-gold mt-1">check</span>
+
+                        <span class="text-gray-700 text-sm"><strong>Central de Comandos:</strong> Tudo sobre o projeto em uma tela. Chega de caçar mensagens no WhatsApp.</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="order-1 lg:order-2 feature-img-container rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
+
+                <img src="1.webp" class="object-cover w-full h-full" alt="Gestão de Projetos">
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
+
+
+
+<section class="py-24 bg-white border-t border-gray-100">
+
+    <div class="max-w-5xl mx-auto px-4">
+
+        <h2 class="text-3xl md:text-4xl font-serif text-primary text-center mb-16">O que acontece quando você organiza a casa?</h2>
+
+        
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-notion-bg p-8 rounded-2xl border border-gray-100">
+
+                <div class="flex gap-1 text-accent-gold mb-4">
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                </div>
+
+                <p class="text-gray-600 text-sm leading-relaxed mb-6">"Eu passava mais tempo organizando pastas e respondendo whats do que projetando. O Arq do Notion centralizou tudo. Hoje minha estagiária sabe o que fazer sem me perguntar."</p>
+
+                <div class="font-bold text-primary text-sm">Mariana S. <span class="block text-xs font-normal text-gray-500">Arquiteta Autônoma</span></div>
+
+            </div>
+
+
+
+            <div class="bg-notion-bg p-8 rounded-2xl border border-gray-100">
+
+                <div class="flex gap-1 text-accent-gold mb-4">
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                </div>
+
+                <p class="text-gray-600 text-sm leading-relaxed mb-6">"Só pelo módulo financeiro já valeu. Eu nunca sabia meu lucro real no fim do mês. Agora vejo claramente receitas e despesas. O visual é lindo e muito fácil de usar."</p>
+
+                <div class="font-bold text-primary text-sm">Carlos E. <span class="block text-xs font-normal text-gray-500">Escritório Pequeno Porte</span></div>
+
+            </div>
+
+
+
+            <div class="bg-notion-bg p-8 rounded-2xl border border-gray-100">
+
+                <div class="flex gap-1 text-accent-gold mb-4">
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                    <span class="material-symbols-outlined text-sm">star</span>
+
+                </div>
+
+                <p class="text-gray-600 text-sm leading-relaxed mb-6">"Sempre tive medo de gestão. Achava chato. O template gamificou meu trabalho. Ver a barra de progresso das obras andando me dá uma paz que não tem preço."</p>
+
+                <div class="font-bold text-primary text-sm">Fernanda L. <span class="block text-xs font-normal text-gray-500">Arquiteta & Interiores</span></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 
 <section id="oferta" class="py-24 bg-primary text-white overflow-hidden relative">
+
     <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent-gold rounded-full blur-[120px]"></div>
+
     </div>
+
+
 
     <div class="max-w-5xl mx-auto px-4 relative z-10 text-center">
-        <h2 class="text-4xl md:text-6xl font-serif mb-8 italic">O Investimento na sua <br/> <span class="text-accent-gold">Libertação Criativa</span></h2>
+
+        <h2 class="text-4xl md:text-5xl font-serif mb-8 italic">O Investimento na sua <br/> <span class="text-accent-gold">Liberdade e Organização</span></h2>
+
         
+
         <div class="bg-white text-primary rounded-3xl p-8 md:p-16 max-w-4xl mx-auto shadow-2xl border border-white/20">
+
             <div class="grid md:grid-cols-2 gap-12 text-left items-center">
+
                 <div>
-                    <h4 class="text-xs font-bold tracking-[0.3em] uppercase text-gray-400 mb-4">Você recebe hoje:</h4>
+
+                    <h4 class="text-xs font-bold tracking-[0.3em] uppercase text-gray-400 mb-4">Você recebe acesso imediato:</h4>
+
                     <ul class="space-y-4 text-sm mb-8">
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Protocolo Archi-Flow Completo</li>
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Dashboard de Radar Financeiro</li>
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Módulo de Gestão de Obras 2.0</li>
-                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> CRM de Captação de Alto Ticket</li>
+
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Template Arq do Notion Completo</li>
+
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Controle de Receitas e Despesas</li>
+
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Gestão de Tarefas Interdependentes</li>
+
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> CRM de Clientes e Propostas</li>
+
                         <li class="flex items-center gap-3"><span class="material-symbols-outlined text-green-600">check_circle</span> Atualizações Vitalícias</li>
+
                     </ul>
+
                 </div>
+
                 
+
                 <div class="text-center md:border-l border-gray-100 md:pl-12">
-                    <p class="text-gray-400 text-sm line-through mb-1">Valor Consultoria: R$ 1.997,00</p>
+
+                    <p class="text-gray-400 text-sm line-through mb-1">De: R$ 297,00</p>
+
                     <div class="mb-2">
-                        <span class="text-sm uppercase font-bold text-accent-gold tracking-widest block mb-2">Preço de Lançamento</span>
+
+                        <span class="text-sm uppercase font-bold text-accent-gold tracking-widest block mb-2">Oferta Especial</span>
+
                         <span class="text-6xl font-serif font-bold">R$ 127</span>
+
                     </div>
+
                     <p class="text-gray-500 text-xs mb-8">ou 12x de R$ 13,14 no cartão</p>
 
+
+
                     <a href="https://pay.kiwify.com.br/CF5H8Gs" target="_blank" class="block w-full bg-primary text-white py-5 rounded-xl font-bold text-lg hover:bg-black hover:scale-105 transition-all shadow-xl">
-                        APLICAR PROTOCOLO AGORA
+
+                        QUERO ORGANIZAR MEU ESCRITÓRIO
+
                     </a>
+
                     
+
                     <div class="mt-6 flex items-center justify-center gap-4 text-[10px] text-gray-400 font-bold uppercase tracking-widest">
+
                         <span>7 Dias de Garantia</span>
+
                         <span>•</span>
+
                         <span>Compra Segura</span>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 
-<footer class="bg-white py-12 border-t border-gray-100">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-        <div class="font-serif italic text-2xl font-bold text-primary mb-4">Arq do Notion</div>
-        <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">
-            © 2026 - O Protocolo Definitivo para Arquitetos de Elite
-        </p>
+
+
+<section class="py-24 bg-notion-bg">
+
+    <div class="max-w-3xl mx-auto px-4">
+
+        <h2 class="text-3xl font-serif text-primary text-center mb-12">Perguntas Frequentes</h2>
+
+        
+
+        <div class="space-y-4">
+
+            <div class="bg-white p-6 rounded-xl border border-gray-200">
+
+                <h3 class="font-bold text-primary mb-2">Preciso pagar o Notion para usar?</h3>
+
+                <p class="text-gray-600 text-sm">Não! O template funciona 100% no plano gratuito do Notion. Você não terá custos extras mensais.</p>
+
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-gray-200">
+
+                <h3 class="font-bold text-primary mb-2">Nunca usei o Notion, vou conseguir usar?</h3>
+
+                <p class="text-gray-600 text-sm">Sim. O Arq do Notion foi desenhado para ser intuitivo. Além disso, você recebe um vídeo tutorial passo a passo de como instalar e usar cada função.</p>
+
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-gray-200">
+
+                <h3 class="font-bold text-primary mb-2">Serve para quem trabalha sozinho?</h3>
+
+                <p class="text-gray-600 text-sm">Com certeza. É a melhor forma de você ter a organização de um grande escritório sem precisar de uma equipe para gerenciar papéis.</p>
+
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-gray-200">
+
+                <h3 class="font-bold text-primary mb-2">E se eu não me adaptar?</h3>
+
+                <p class="text-gray-600 text-sm">Você tem 7 dias de garantia incondicional. Se achar que não é para você, basta um clique e devolvemos seu dinheiro.</p>
+
+            </div>
+
+        </div>
+
     </div>
+
+</section>
+
+
+
+<footer class="bg-white py-12 border-t border-gray-100">
+
+    <div class="max-w-6xl mx-auto px-4 text-center">
+
+        <div class="font-serif italic text-2xl font-bold text-primary mb-4">Arq do Notion</div>
+
+        <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold">
+
+            © 2026 - Gestão Inteligente para Arquitetos
+
+        </p>
+
+    </div>
+
 </footer>
 
+
+
 </body>
+
 </html>
